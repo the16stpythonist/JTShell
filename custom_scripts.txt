@@ -1,0 +1,5 @@
+custom scripts have to be of a certain format and follow certain rules as followin:
+- Python file within the 'cmds' folder of the cwd
+- contianing a help variable, representing a short description of the script
+- containing a run function, which will be executed by the Shell program
+    - implementing a 'default' parameter, which will be used for pipe input

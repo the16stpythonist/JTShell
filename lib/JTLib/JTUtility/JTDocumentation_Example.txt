@@ -1,0 +1,69 @@
+"""
+Headerfile
+###
+blabla
+"""
+
+"""
+Test description of the class
+###
+testVar1 - (int) Hallo
+                 Hallo
+"""
+class TestClass(Her1, Her2):
+    """
+    testVar1 - (int) Hallo
+                     Hallo
+    testVar2 - (int) Das ist die TestVariable 2
+    """
+    def __init__(self):
+        # source code 
+    
+    def Meth1(self):
+        """
+        Description 1
+        ###
+        hallo - (list/dict/string-string) faggots
+        ###
+        RETURNS (void)
+        """
+        # source code
+
+    def Meth2(self):
+        """
+        Description 2
+        ###
+        RETURNS (int)
+        """
+        # source code
+
+"""
+Test description of the class
+###
+testVar1 - (int) Hallo
+                 Hallo
+"""
+class TestClass(Her1, Her2):
+    """
+    testVar1 - (int) Hallo
+                     Hallo
+    testVar2 - (int) Das ist die TestVariable 2
+    """
+    def __init__(self):
+        # source code 
+    
+    def Meth1(self):
+        """
+        Description 1
+        ###
+        RETURNS (void)
+        """
+        # source code
+
+    def Meth2(self):
+        """
+        Description 2
+        ###
+        RETURNS (int)
+        """
+        # source code

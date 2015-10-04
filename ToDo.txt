@@ -1,0 +1,12 @@
+Todo list for the JTShell project:
+- write a documentation
+- write a complete list of tests, with error report messages
+- write a good amountof executable functions
+  - help function
+  - process list function
+  - native windows command function
+
+- Parser: (DONE)
+  - add syntax for required arguments for fucntions
+    - slightly adjust the Parameter token
+     
