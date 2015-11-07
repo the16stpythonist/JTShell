@@ -7,6 +7,7 @@ Todo list for the JTShell project:
   - native windows command function
 
 - Parser: (DONE)
-  - add syntax for required arguments for fucntions
+  - add syntax for required arguments for functions
     - slightly adjust the Parameter token
-     
+
+- Help function: add colors, whenever there are enough functions to do so

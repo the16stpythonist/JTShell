@@ -1,4 +1,6 @@
 __author__ = 'Jonas'
+import JTShell.util.colors as colors
+
 
 class Colors:
     BLACK = "\033[0;30;40m"
@@ -8,5 +10,4 @@ class Colors:
     BLUE = "\033[0;34;40m"
     MAGENTA = "\033[0;35;40m"
     WHITE = "\033[0;37;40m"
-
 

@@ -11,6 +11,7 @@ from JTShell.processers.executer import Executer
 from JTShell.processes import ProcessList
 from JTShell.util.message import Message
 import JTShell.util.error as error
+import JTShell.util.colors as colors
 
 
 class Shell:
@@ -32,7 +33,7 @@ class Shell:
         # tests
         self.logger = None
         self.writer = None
-        self.prompt = "\n> "
+        self.prompt = "\n JTShell > "
         self.source = commandfolder
         # setting up the process list, that will be managing all ongoing processes within the shell, whenever the shell
         # is closed, very ascociated process is closed aswell
@@ -59,7 +60,8 @@ class Shell:
         try:
             while True:
                 # first fetching the user input
-                command = input(self.prompt)
+                print(colors.magenta(colors.bold(self.prompt)), end="")
+                command = input()
 
                 if command == "exit":
                     if self.supershell is None:
